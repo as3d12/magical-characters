@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magical Characters</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    
+    <main>
+        <header>
+            <h1>Magical Characters</h1>
+        </header>
+        <div class="stars"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+        <div class="shooting-star"></div>
+
+        <section class="FillterList" aria-label="Filter characters">
+            <input type="text" id="searchInput" placeholder="Search characters..." aria-label="Search by name" />
+            <select id="houseFilter" aria-label="Filter by house">
+                <option value="">All Houses</option>
+                <option value="Gryffindor">Gryffindor</option>
+                <option value="Hufflepuff">Hufflepuff</option>
+                <option value="Ravenclaw">Ravenclaw</option>
+                <option value="Slytherin">Slytherin</option>
+            </select>
+            <button id="filterButton">Filter</button>
+            <button id="resetButton">Reset</button>
+        </section>
+
+        <div class="container" id="CardContainer" role="list">
+        </div>
+
+        <div class="loader">
+            <button id="loader-button" aria-label="Load more characters">
+                LOAD MORE
+            </button>
+        </div>
+        <br>
+        <footer>
+            <div class="footerbar">
+          <div class="footeremptybar"></div>
+          <div class="footerfilledbar" style="width: 100%"></div>
+        </div>
+            
+            <h2>
+                Asaad aljammal - 2025
+            </h2>
+
+        </footer>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
