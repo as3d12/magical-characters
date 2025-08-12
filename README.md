@@ -26,3 +26,8 @@ I also realized the importance of organizing code for readability, especially wh
 ### 2. How long did it take you to complete this assignment? And how long did you expect it to take?
 
 It took me about **3 to 4 hours** to complete the assignment. I expected it to take around **2 hours**, but I spent extra time figuring out how to style the cards nicely and how to properly use custom fonts. Debugging some small issues also took longer than I anticipated, but I learned a lot in the process.
+
+---
+
+## Visit My Website  
+[Click here to visit Crazy Meal](https://as3d12.github.io/magical-characters)
